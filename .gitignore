@@ -1,0 +1,53 @@
+# ============================================
+# Entornos virtuales (cada Trabajo crea el suyo)
+# ============================================
+.venv/
+venv/
+env/
+
+# ============================================
+# Variables de entorno / credenciales
+# ============================================
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+
+# ============================================
+# Cache de Python
+# ============================================
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================
+# Jupyter
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# Sistema operativo / editores
+# ============================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+
+# ============================================
+# Documentos locales de trabajo (no para entrega)
+# ============================================
+Informacion.docx
+Informacion.pdf
+
+# ============================================
+# Papers descargados (repo público: posible copyright editorial)
+# Se mantienen solo localmente; el .bib/.xlsx con las referencias sí se versiona
+# ============================================
+Trabajo 2 Metodologia/papers/*.pdf
